@@ -1,0 +1,42 @@
+{
+  "cap_tokens": 300,
+  "pages": 77,
+  "chunkers": {
+    "in_house": {
+      "chunks": 717,
+      "median_tokens": 152,
+      "p90_tokens": 276,
+      "max_tokens": 522,
+      "over_cap": 9,
+      "under_40_tokens": 69,
+      "fences_cut_in_half": 0,
+      "code_starts_chunk_after_other_text": 6,
+      "table_fragments_without_header": 4,
+      "total_tokens": 111364
+    },
+    "langchain_recursive_markdown": {
+      "chunks": 599,
+      "median_tokens": 209,
+      "p90_tokens": 283,
+      "max_tokens": 300,
+      "over_cap": 0,
+      "under_40_tokens": 30,
+      "fences_cut_in_half": 240,
+      "code_starts_chunk_after_other_text": 154,
+      "table_fragments_without_header": 14,
+      "total_tokens": 114873
+    },
+    "langchain_header_then_recursive": {
+      "chunks": 731,
+      "median_tokens": 146,
+      "p90_tokens": 288,
+      "max_tokens": 300,
+      "over_cap": 0,
+      "under_40_tokens": 79,
+      "fences_cut_in_half": 208,
+      "code_starts_chunk_after_other_text": 14,
+      "table_fragments_without_header": 16,
+      "total_tokens": 114873
+    }
+  }
+}

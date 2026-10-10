@@ -11,10 +11,16 @@ dependencies = [
 ]
 
 [dependency-groups]
+data = [
+    "polars==2.0.0",
+]
 dev = [
     "pytest>=8.2",
     "ruff>=0.5",
     "pre-commit>=3.7",
+]
+experiments = [
+    "langchain-text-splitters>=1.1.3",
 ]
 
 [build-system]
@@ -34,3 +40,6 @@ select = ["E", "F", "I", "UP", "B"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "--basetemp=.pytest_tmp"
+
+[tool.uv]
+default-groups = ["dev", "data"]
