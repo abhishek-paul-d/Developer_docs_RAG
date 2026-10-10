@@ -1,6 +1,6 @@
 # Phase 0 Guide: choose the library and set up the repo
 
-Status: in progress. The key works and all 40 sampled answers have now been reviewed by the assistant at your request. See the [grading guide](PHASE0_GRADING_GUIDE.md). The library is chosen: **Polars** (D-001). CI verification remains pending (no GitHub remote yet). This guide explains what we did, why, the real code, and the real numbers. Every choice is recorded with alternatives in [DECISIONS.md](../DECISIONS.md).
+Status: closed (CI green on main). The key works and all 40 sampled answers have now been reviewed by the assistant at your request. See the [grading guide](PHASE0_GRADING_GUIDE.md). The library is chosen: **Polars** (D-001). CI is green on GitHub (the remote now exists). This guide explains what we did, why, the real code, and the real numbers. Every choice is recorded with alternatives in [DECISIONS.md](../DECISIONS.md).
 
 ## 0. The big idea
 
@@ -155,7 +155,7 @@ How to read the outcome: the independent-bootstrap difference interval is -16.8 
 ## 5. Exit checklist
 
 - [x] Repo skeleton, tests and lint green locally
-- [ ] CI green (needs a GitHub remote)
+- [x] CI green (GitHub Actions passes on main and on the Phase 1 PR)
 - [x] Docs size, license and question counts for all candidates
 - [x] Preliminary assistant-reviewed error rates for the finalists, with CIs (not human validated)
 - [x] D-001 finalized: Polars
