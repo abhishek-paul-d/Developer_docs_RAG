@@ -11,3 +11,7 @@ lint:
 
 fmt:
 	uv run ruff format .
+
+.PHONY: data
+data:
+	uv run python -m devdocs_rag.data.pipeline
