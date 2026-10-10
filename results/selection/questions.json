@@ -1,0 +1,42 @@
+[
+  {
+    "name": "polars",
+    "tag": "python-polars",
+    "so_total": 2836,
+    "so_accepted": 1828,
+    "discussions_repo": "pola-rs/polars",
+    "discussions_enabled": false,
+    "discussions_total": 0,
+    "discussions_answered": 0
+  },
+  {
+    "name": "pydantic",
+    "tag": "pydantic",
+    "so_total": 2390,
+    "so_accepted": 1099,
+    "discussions_repo": "pydantic/pydantic",
+    "discussions_enabled": true,
+    "discussions_total": 2245,
+    "discussions_answered": 568
+  },
+  {
+    "name": "langgraph",
+    "tag": "langgraph",
+    "so_total": 142,
+    "so_accepted": 26,
+    "discussions_repo": "langchain-ai/langgraph",
+    "discussions_enabled": false,
+    "discussions_total": 0,
+    "discussions_answered": 0
+  },
+  {
+    "name": "uv",
+    "tag": "uv",
+    "so_total": 182,
+    "so_accepted": 73,
+    "discussions_repo": "astral-sh/uv",
+    "discussions_enabled": false,
+    "discussions_total": 0,
+    "discussions_answered": 0
+  }
+]

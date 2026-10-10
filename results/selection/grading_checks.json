@@ -1,0 +1,87 @@
+{
+  "python": "3.12.14",
+  "polars": "1.34.0",
+  "pydantic": "2.13.5",
+  "numpy": "2.3.5",
+  "checks": {
+    "polars_api_inventory": {
+      "result": "{'list.combinations': False, 'Expr.list_callable': False, 'Expr.cum_mean': False, 'Expr.cum_std': False, 'Expr.apply': False, 'LazyFrame.set_streaming': False, 'DataFrame.is_null': False, 'DataFrame.is_nan': False, 'module.write_database': False, 'sink_parameters': ['self', 'path', 'compression', 'compression_level', 'statistics', 'row_group_size', 'data_page_size', 'maintain_order', 'storage_options', 'credential_provider', 'retries', 'sync_on_close', 'metadata', 'mkdir', 'lazy', 'field_overwrites', 'engine', 'optimizations']}"
+    },
+    "polars_3_join_columns": {
+      "result": "['a', 'lk', 'b']"
+    },
+    "polars_7_backtick_column": {
+      "exception": "ColumnNotFoundError",
+      "message": "unable to find column \"`*`\"; valid columns: [\"A\", \"*\"]"
+    },
+    "polars_9_series_height": {
+      "exception": "AttributeError",
+      "message": "'Series' object has no attribute 'height'"
+    },
+    "polars_6_two_step_output": {
+      "result": "{'grp': ['a', 'a', 'b', 'b'], 'date': [1, 2, 1, 2], 'val': [0.5, 0.5, 0.5, 0.5], 'tmp': [None, 0.5, None, 0.5], 'rank': [None, 1.5, None, 1.5]}"
+    },
+    "polars_14_actual_percentages": {
+      "result": "{'a': [0, 1, 2], '0': [33.33, 0.0, 0.0], '1': [33.33, 16.67, 16.67]}"
+    },
+    "polars_18_primary": {
+      "result": "[1, 2, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    "polars_18_expression_alternative": {
+      "result": "[1, 2, 4, 5]"
+    },
+    "polars_4_window": {
+      "result": "'first complete Python block executed'"
+    },
+    "polars_11_filter": {
+      "result": "'first complete Python block executed'"
+    },
+    "pydantic_2_explicit_null": {
+      "exception": "ValidationError",
+      "message": "1 validation error for OptionalCase\nauthor_id\n  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/int_type"
+    },
+    "pydantic_2_omitted": {
+      "result": "OptionalCase(author_id=None)"
+    },
+    "pydantic_3_schema": {
+      "exception": "PydanticSchemaGenerationError",
+      "message": "Unable to generate pydantic-core schema for <class 'numpy.ndarray'>. Set `arbitrary_types_allowed=True` in the model_config to ignore this error or implement `__get_pydantic_core_schema__` on your type to fully support it.\n\nIf you got this error by calling handler(<some type>) within `__get_pydantic_core_schema__` then you likely need to call `hand"
+    },
+    "pydantic_4_constructor_invalid_default": {
+      "exception": "ValidationError",
+      "message": "1 validation error for TestClass\nid\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/int_parsing"
+    },
+    "pydantic_7_root": {
+      "exception": "TypeError",
+      "message": "To define root models, use `pydantic.RootModel` rather than a field called '__root__'"
+    },
+    "pydantic_8_serializer": {
+      "exception": "PydanticSerializationError",
+      "message": "Error calling function `_serialize`: RuntimeError: serializer re-entered itself"
+    },
+    "pydantic_9_reset": {
+      "result": "'first complete Python block executed'"
+    },
+    "pydantic_11_generic_argument": {
+      "result": "~T"
+    },
+    "pydantic_12_enums": {
+      "result": "[None, None, None, None]"
+    },
+    "pydantic_13_validation_info_model": {
+      "exception": "AttributeError",
+      "message": "'pydantic_core._pydantic_core.ValidationInfo' object has no attribute 'model'"
+    },
+    "pydantic_15_imports": {
+      "exception": "PydanticImportError",
+      "message": "`BaseSettings` has been moved to the `pydantic-settings` package. See https://docs.pydantic.dev/2.13/migration/#basesettings-has-moved-to-pydantic-settings for more details.\n\nFor further information visit https://errors.pydantic.dev/2.13/u/import-error"
+    },
+    "pydantic_19_values_get": {
+      "exception": "AttributeError",
+      "message": "'pydantic_core._pydantic_core.ValidationInfo' object has no attribute 'get'"
+    },
+    "pydantic_14_plain_bytes": {
+      "result": "b'YWJj'"
+    }
+  }
+}

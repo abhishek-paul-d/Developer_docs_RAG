@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     results_dir: Path = Path("results")
     cache_dir: Path = Path(".cache/llm")
     groq_api_key: str = ""
+    groq_model: str = "openai/gpt-oss-120b"
 
 
 settings = Settings()

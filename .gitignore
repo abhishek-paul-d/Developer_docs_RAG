@@ -8,3 +8,7 @@ data/
 *.gguf
 .ipynb_checkpoints/
 .cache/
+.pytest_tmp/
+results/selection/contamination_*.md
+DECISIONS.md
+FLOW.md

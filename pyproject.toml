@@ -5,6 +5,7 @@ description = "Developer docs assistant: a measured RAG system with a fine-tuned
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "httpx>=0.28.1",
     "pydantic>=2.7",
     "pydantic-settings>=2.3",
 ]
@@ -32,3 +33,4 @@ select = ["E", "F", "I", "UP", "B"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+addopts = "--basetemp=.pytest_tmp"

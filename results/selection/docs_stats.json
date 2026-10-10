@@ -1,0 +1,38 @@
+[
+  {
+    "name": "polars",
+    "docs_repo": "pola-rs/polars",
+    "commit": "803d71650c8496e1e8bae40ff326076a6443e1d9",
+    "license_hint": "MIT",
+    "pages": 87,
+    "pages_over_100_words": 75,
+    "total_words": 63824
+  },
+  {
+    "name": "pydantic",
+    "docs_repo": "pydantic/pydantic",
+    "commit": "68a839f0712c367f17be497b6850ebcb6825d76c",
+    "license_hint": "MIT",
+    "pages": 91,
+    "pages_over_100_words": 51,
+    "total_words": 82211
+  },
+  {
+    "name": "langgraph",
+    "docs_repo": "langchain-ai/docs",
+    "commit": "cd302e5548df094a85b34dfb6eb23823c66614f4",
+    "license_hint": "MIT",
+    "pages": 43,
+    "pages_over_100_words": 41,
+    "total_words": 127445
+  },
+  {
+    "name": "uv",
+    "docs_repo": "astral-sh/uv",
+    "commit": "44b2e5877ef752e360acc02c7d198ba71ddf948d",
+    "license_hint": "Apache-2.0 OR MIT",
+    "pages": 81,
+    "pages_over_100_words": 67,
+    "total_words": 71402
+  }
+]
